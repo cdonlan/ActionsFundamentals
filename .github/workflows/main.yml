@@ -1,0 +1,13 @@
+name: demo
+on: 
+  push:
+    branches:
+      - main
+  pull_request:
+    branches: main
+  schedule:
+    - cron:  '15 6 * * 0'
+    
+
+  
+    
